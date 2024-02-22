@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{4CA601F4-F011-4A93-8C5D-1B153AB49285}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameState.cs">
+    <Files>
+      <File FileName="Pages/Index.cshtml.cs" Line="3" Column="1" />
+      <File FileName="Pages/Index.cshtml" Line="9" Column="1" />
+      <File FileName="wwwroot/css/site.css" Line="78" Column="1" />
+      <File FileName="GameState.cs" Line="128" Column="4" />
+      <File FileName="Position.cs" Line="24" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Snake" expanded="True">
+            <Node name="Snake">
+              <Node name="Data" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+              <Node name="wwwroot">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="GameState.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Snake PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
