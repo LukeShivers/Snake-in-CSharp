@@ -13,26 +13,29 @@ namespace Snake
 		public int Score { get; private set; }
 		public bool GameOver { get; private set; }
 
-		// List of positions currently occupied by the snake.
-		// Linked list is used bc it allows us to add and delete from both ends of the list.
+
+		// Initalized list of Positions (x's,y's) currently occupied by the snake.
 		private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();
+
 
 		// Food spawn
 		private readonly Random random = new Random();
 
+
 		// Constructor
         public GameState(int rows, int cols)
         {
-            Rows = rows;
-            Cols = cols;
-			Grid = new GridValue[rows, cols]; // Initalize the 2-D array
+            Rows = rows; // Updates Rows variable to the number of rows given
+            Cols = cols; // Updates Cols variable to the number of cols given
+            Grid = new GridValue[rows, cols]; // Calls the 2-D array grid with certain# of rows and certain# of cols. 
 			Dir = Direction.Right; // Start snake right
 
 			AddSnake();
 			AddFood();
         }
 
-		// A method that adds snake to the grid
+
+		// A method that sets starting rows&cols for snake and adds snake to the grid & the list
 		private void AddSnake()
 		{
             // Adds it to the middle row
@@ -41,12 +44,13 @@ namespace Snake
 			// Loops over colummns 1,2,3
             for (int c = 1; c <= 3; c++)
             {
-				Grid[r, c] = GridValue.Snake; // Adds snake square to col 1,2,3
-				snakePositions.AddFirst(new Position(r, c)); // Add snake squares to the start of the list
+				Grid[r, c] = GridValue.Snake; // Updates Grid array to add snake square to row# row/2 and col# 1,2,3.
+				snakePositions.AddFirst(new Position(r, c)); // Add snake squares to the start of the list after each iteration of loop
             }
         }
 
-		// Create a method that returns all empty grid positions
+
+		// Create a method that iterates though all grid positions and returns Position objects for each empty grid position.
 		private IEnumerable<Position> EmptyPositions()
 		{
 			for(int r = 0; r < Rows; r++)
@@ -61,22 +65,25 @@ namespace Snake
 			}
 		}
 
+
 		// Adds food square 
 		private void AddFood()
 		{
 			// List called 'empty' of empty grid squares 
 			List<Position> empty = new List<Position>(EmptyPositions()); 
 
+			// If no empty squares (game beat)
 			if (empty.Count == 0)
 			{
 				return;
 			}
 
-			// returns a random integer between 0 and the empty count
+			// returns a Position obj from the 'empty' list between 0 and the number of empty squares.
 			Position pos = empty[random.Next(empty.Count)];
-			// sets GridValue.Food = to the random number applied to the row and col
+			// sets GridValue.Food = to that row and col.
 			Grid[pos.Row, pos.Col] = GridValue.Food;
 		}
+
 
 		// Get positon of snake head
 		public Position HeadPosition()
@@ -91,7 +98,8 @@ namespace Snake
 			return snakePositions.Last.Value;
 		}
 
-		// Returns all the position values the snake 
+
+		// Returns all the position values of the snake 
 		public IEnumerable<Position> SnakePosition()
 		{
 			return snakePositions;

@@ -1,22 +1,59 @@
-﻿html {
-  font-size: 14px;
+﻿@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace;
+    scroll-behavior: smooth;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+:root {
+    --background: #414141;
+    --darkGreen: #3F4235;
+    --mediumGreen: #5C614A;
+    --lightGreen: #8D9572;
+    --darkTan: #AFB792;
+    --lightTan: #C7CFA7;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    font-size: calc(100vw / 144);
 }
 
-body {
-  margin-bottom: 60px;
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerBorder {
+    background-color: var(--mediumGreen);
+    border-radius: 3.2rem;
+    width: 96rem;
+    height: 57.6rem;
+}
+
+.innerBorder {
+    background-color: var(--lightGreen);
+    border: 0.8rem solid var(--darkTan);
+    border-radius: 2.2rem;
+    width: 93rem;
+    height: 54.6rem;
+}
+
+.gridBorder {
+    background-color: var(--darkTan);
+    border: 0.8rem solid var(--mediumGreen);
+    width: 86.2rem;
+    height: 44.2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 0;
 }

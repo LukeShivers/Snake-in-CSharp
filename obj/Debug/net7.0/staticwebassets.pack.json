@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets/Snake.bundle.scp.css"
     },
     {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/empty.svg",
       "PackagePath": "staticwebassets/assets/empty.svg"
     },

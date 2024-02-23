@@ -1,43 +1,18 @@
-*[b-jslkyl608j],
-*[b-jslkyl608j]::before,
-*[b-jslkyl608j]::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-:root[b-jslkyl608j] {
-    --background: #414141;
-    --bold-green: #3F4235;
-    --medium-green: #5C614A;
-    --light-green: #8D9572;
-    --dark-tan: #AFB792;
-    --light-tan: #C7CFA7;
-}
-
-html[b-jslkyl608j] {
-    font-size: calc(100vw / 144);
-}
-
 nav[b-jslkyl608j] {
-    display: flex;
     background-color: var(--background);
+    width: 100vw;
 }
 
 .logo[b-jslkyl608j] {
-    display: flex;
+    margin-top: 2rem;
     margin-left: 7rem;
-    margin-top: 2.2rem;
 }
 
 main[b-jslkyl608j] {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    align-items: center;
     background-color: var(--background);
-}
-
-footer[b-jslkyl608j] {
-    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
 }

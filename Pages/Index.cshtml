@@ -1,11 +1,37 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    @using Snake.Data;
+
+    Dictionary<GridValue, string> gridValToImage = new()
+    {
+        { GridValue.Empty, "/assets/empty.svg" },
+        { GridValue.Snake, "/assets/snake.svg" },
+        { GridValue.Food, "/assets/food.svg" }
+    };
+
+    int rows = 12, cols = 24;
+
+    GameState gameState = new GameState(rows, cols);
+    GridValue gridVal = GridValue.Empty;
+
+
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="outerBorder frame">
+    <div class="innerBorder frame">
+        <div class="gridBorder frame">
+            <div class="grid">
+                @for (int r = 0; r < rows; r++)
+                {
+                    @for (int c = 0; c < cols; c++)
+                    {
+                        gridVal = gameState.Grid[r, c];
+                        <img src=@gridValToImage[gridVal] alt="Image">
+                    }
+                }
+            </div>
+        </div>
+    </div>
 </div>
 
