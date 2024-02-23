@@ -11,7 +11,9 @@
 
     <!-- Nav -->
     <nav>
-        <img class="logo" src="~/assets/snakeLogo.svg" alt="Logo">
+        <a class="logo" href="/">
+            <img src="~/assets/snakeLogo.svg" alt="Logo">
+        </a>
     </nav>
 
     <!-- Main -->
@@ -26,8 +28,8 @@
         </div>
     </footer>
 
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

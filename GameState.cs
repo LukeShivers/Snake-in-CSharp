@@ -124,7 +124,7 @@ namespace Snake
         }
 
 
-		public void ChnageDirections(Direction dir)
+		public void ChangeDirection(Direction dir)
 		{
 			Dir = dir;
 		}
@@ -155,7 +155,7 @@ namespace Snake
 		}
 
 		// Move snake one space in the current direction
-		public void move()
+		public void Move()
 		{
 			Position newHeadPos = HeadPosition().Translate(Dir);
 			GridValue hit = WillHit(newHeadPos);	// Set hit = to the hit function plugging in the direction

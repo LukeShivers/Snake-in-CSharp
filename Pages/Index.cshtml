@@ -1,37 +1,53 @@
 ﻿@page
 @model IndexModel
 @{
-    @using Snake.Data;
-
-    Dictionary<GridValue, string> gridValToImage = new()
-    {
-        { GridValue.Empty, "/assets/empty.svg" },
-        { GridValue.Snake, "/assets/snake.svg" },
-        { GridValue.Food, "/assets/food.svg" }
-    };
-
-    int rows = 12, cols = 24;
-
-    GameState gameState = new GameState(rows, cols);
-    GridValue gridVal = GridValue.Empty;
-
-
 }
 
+
+<div class="scoreLives">
+    <div class="scoreContainer">
+        <span class="score">SCORE</span>
+        <span class="score"></span>
+    </div>
+</div>
 <div class="outerBorder frame">
     <div class="innerBorder frame">
         <div class="gridBorder frame">
             <div class="grid">
-                @for (int r = 0; r < rows; r++)
+                @foreach (string img in @Model.DrawGrid())
                 {
-                    @for (int c = 0; c < cols; c++)
-                    {
-                        gridVal = gameState.Grid[r, c];
-                        <img src=@gridValToImage[gridVal] alt="Image">
-                    }
+                    @Html.Raw(img)
                 }
             </div>
         </div>
     </div>
 </div>
 
+
+<script>
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "ArrowUp") {
+            callCSharpMethod("Up");
+        } else if (event.key === "ArrowDown") {
+            callCSharpMethod("Down");
+        } else if (event.key === "ArrowLeft") {
+            callCSharpMethod("Left");
+        } else if (event.key === "ArrowRight") {
+            callCSharpMethod("Right");
+        }
+    });
+
+    function callCSharpMethod(arrowDirection) {
+        $.ajax({
+            type: "POST",
+            url: "@Url.Page("./", new { handler = "HandleArrowKeyPress" })",
+            data: { arrowDirection: arrowDirection },
+            success: function(response) {
+                console.log(response);
+            },
+            error: function(xhr, status, error) {
+                console.error(error);
+            }
+        });
+    }
+</script>

@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
 
 *,
 *::before,
@@ -6,7 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Fira Code', monospace;
+    font-family: "Lexend Zetta", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -23,6 +23,25 @@ html {
     font-size: calc(100vw / 144);
 }
 
+.scoreLives {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.scoreContainer {
+    display: flex;
+    align-items: center;
+}
+
+.score {
+    font-size: 5.8rem;
+    color: var(--lightTan);
+    -webkit-text-stroke: 0.5rem var(--mediumGreen);
+    text-stroke: 0.5rem var(--mediumGreen);
+}
+
 .frame {
     display: flex;
     justify-content: center;
@@ -34,6 +53,7 @@ html {
     border-radius: 3.2rem;
     width: 96rem;
     height: 57.6rem;
+    margin-top: 2rem;
 }
 
 .innerBorder {

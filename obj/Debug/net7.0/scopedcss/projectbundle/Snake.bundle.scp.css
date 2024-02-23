@@ -1,17 +1,24 @@
 /* _content/Snake/Pages/Shared/_Layout.cshtml.rz.scp.css */
 nav[b-jslkyl608j] {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: var(--background);
     width: 100vw;
 }
 
 .logo[b-jslkyl608j] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 2rem;
     margin-left: 7rem;
 }
 
 main[b-jslkyl608j] {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     background-color: var(--background);
     width: 100vw;
