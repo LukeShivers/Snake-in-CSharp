@@ -5,20 +5,20 @@ namespace Snake
 {
 	public class GameState
 	{
-        // Properties
+        // Init Properties
         public int Rows { get; }
         public int Cols { get; }
-		public GridValue[,] Grid { get; } // The Grid itself, a 2-D array of GridValues.
-		public Direction Dir { get; private set; } // Can be access from anywhere but only set here
+		public GridValue[,] Grid { get; } // The code Grid itself, a 2-D array of GridValues.
+		public Direction Dir { get; private set; }
 		public int Score { get; private set; }
 		public bool GameOver { get; private set; }
 
 
-		// Initalized list of Positions (x's,y's) currently occupied by the snake.
+		// Init list of Positions (x's,y's) currently occupied by the snake.
 		private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();
 
 
-		// Food spawn
+		// Init Food spawn variable
 		private readonly Random random = new Random();
 
 
@@ -129,11 +129,13 @@ namespace Snake
 			Dir = dir;
 		}
 
+
 		// Checks if parameter is outside the grid
 		private bool OutsideGrid(Position pos)
 		{
-			return pos.Row < 0 || pos.Row >= Rows || pos.Col < 0 || pos.Col >= Rows;
+			return pos.Row < 0 || pos.Col < 0 || pos.Row >= 12 || pos.Col >= 20;
         }
+
 
 		// Returns what the snake will hit when it moves
 		private GridValue WillHit(Position newHeadPos)
@@ -153,6 +155,7 @@ namespace Snake
 			// If snake doesn't hit anything return that position.
 			return Grid[newHeadPos.Row, newHeadPos.Col];
 		}
+
 
 		// Move snake one space in the current direction
 		public void Move()
