@@ -9,25 +9,22 @@ namespace Snake
         public int Rows { get; }
         public int Cols { get; }
 		public GridValue[,] Grid { get; } // The code Grid itself, a 2-D array of GridValues.
-		public Direction Dir { get; private set; }
+		public Direction Dir { get; set; }
 		public int Score { get; private set; }
 		public bool GameOver { get; private set; }
 
 
-		// Init list of Positions (x's,y's) currently occupied by the snake.
-		private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();
+		// Fields
+		private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();	// Init list of Positions (x's,y's) currently occupied by the snake.
+		private readonly Random random = new Random();	// Init Food spawn variable
 
 
-		// Init Food spawn variable
-		private readonly Random random = new Random();
-
-
-		// Constructor
+        // Constructor
         public GameState(int rows, int cols)
         {
             Rows = rows; // Updates Rows variable to the number of rows given
             Cols = cols; // Updates Cols variable to the number of cols given
-            Grid = new GridValue[rows, cols]; // Calls the 2-D array grid with certain# of rows and certain# of cols. 
+            Grid = new GridValue[rows, cols]; // Makes a 2-D array with certain# of rows and certain# of cols. 
 			Dir = Direction.Right; // Start snake right
 
 			AddSnake();
@@ -88,7 +85,7 @@ namespace Snake
 		// Get positon of snake head
 		public Position HeadPosition()
 		{
-			// Get the last element in the linked list
+			// Get the first element in the linked list (The r,c of that first element)
 			return snakePositions.First.Value;
 		}
 
@@ -99,7 +96,7 @@ namespace Snake
 		}
 
 
-		// Returns all the position values of the snake 
+		// Returns an enumerable list all the r,c values of the snake 
 		public IEnumerable<Position> SnakePosition()
 		{
 			return snakePositions;

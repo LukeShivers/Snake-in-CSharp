@@ -8,6 +8,7 @@ namespace SignalRChat.Hubs
     public class ChatHub : Hub
     {
 
+
         // Dictionary 
         public readonly Dictionary<GridValue, string> gridValToImage = new()
         {
@@ -21,6 +22,15 @@ namespace SignalRChat.Hubs
         private static readonly int rows = 12, cols = 20;
         public GameState gameState = new GameState(rows, cols);
         public GridValue gridVal = GridValue.Empty;
+        private readonly object lockObj = new object();
+        private readonly ILogger<ChatHub> _logger;
+
+
+        // Constructor
+        public ChatHub(ILogger<ChatHub> logger)
+        {
+            _logger = logger;
+        }
 
 
         // Method sets up initial board by returning a List<> of completed img tags.
@@ -45,42 +55,39 @@ namespace SignalRChat.Hubs
         {
             while (!gameState.GameOver)
             {
-                await Task.Delay(250);
+                await Task.Delay(500);
                 gameState.Move();
-                await Clients.All.SendAsync("UpdateUi", DrawGrid(), !gameState.GameOver);   // Update client by drawing new grid after snake moved one position
+                await Clients.All.SendAsync("UpdateUi", DrawGrid());
             }
         }
 
 
-        // Method updates direction
-        public void ClientDirection(string dir)
+        // Method updates the GameState object with new direction
+        public void ClientDirection(string key)
         {
             if (gameState.GameOver)
             {
                 return;
             }
 
-            // when I get the direction call the corresponding
-            switch (dir)
+            switch (key)
             {
-                case "Up":
+                case "ArrowUp":
                     gameState.ChangeDirection(Direction.Up);
                     break;
 
-                case "Down":
-                    gameState.ChangeDirection(Direction.Down);
+                case "ArrowDown":
+                    gameState.Dir = Direction.Down;
                     break;
 
-                case "Left":
-                    gameState.ChangeDirection(Direction.Left);
+                case "ArrowLeft":
+                    gameState.Dir = Direction.Left;
                     break;
 
-                case "Right":
-                    gameState.ChangeDirection(Direction.Right);
+                case "ArrowRight":
+                    gameState.Dir = Direction.Right;
                     break;
             }
-
         }
     }
 }
-
