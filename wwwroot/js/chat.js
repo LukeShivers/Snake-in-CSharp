@@ -18,15 +18,24 @@ connection.on("UpdateUi", function (list) {
 
 // Send keystroke data to server.
 document.addEventListener("keydown", (e) => {
-    console.log("Key: " + e.key)
     connection.invoke("ClientDirection", e.key)
 });
+
+
+async function gameLoop() {
+    for (let i = 0; i < 8; i++) {
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        console.log("Client going off")
+        // Creates a whole new gameboard every second
+        connection.invoke("GameLoop");
+    }
+} 
 
 
 connection.start()
     .then(() => {
         console.log("Connection Successful");
-        connection.invoke("GameLoop");  // Send signal to server to start GameLoop
+        gameLoop();
     })
     .catch((err) => {
         return console.error(err.toString());

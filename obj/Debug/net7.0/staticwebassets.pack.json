@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/assets/.DS_Store"
     },
     {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/codepen.svg",
+      "PackagePath": "staticwebassets/assets/codepen.svg"
+    },
+    {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/empty.svg",
       "PackagePath": "staticwebassets/assets/empty.svg"
     },
@@ -27,6 +31,18 @@
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fullHeart.svg",
       "PackagePath": "staticwebassets/assets/fullHeart.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gitHub.svg",
+      "PackagePath": "staticwebassets/assets/gitHub.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/instagram.svg",
+      "PackagePath": "staticwebassets/assets/instagram.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/linkedIn.svg",
+      "PackagePath": "staticwebassets/assets/linkedIn.svg"
     },
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/snake.svg",

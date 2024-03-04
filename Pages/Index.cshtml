@@ -2,25 +2,21 @@
 @model IndexModel
 @{}
 
-<div class="scoreLives">
-    <div class="scoreContainer">
-        <span class="score">SCORE</span>
-        <span class="score"></span>
-    </div>
-</div>
-<div class="outerBorder frame">
-    <div class="innerBorder frame">
-        <div class="gridBorder frame">
-            <div class="grid">
-                @for (int r = 0; r < 12; r++)
+<div class="outterFrame">
+    <div class="gridBorder frame">
+        <div class="grid">
+            @for (int r = 0; r < 12; r++)
+            {
+                @for (int c = 0; c < 20; c++)
                 {
-                    @for (int c = 0; c < 20; c++)
-                    {
-                        <img id="img_@r-@c" src="" alt="ERROR"/>
-                    }
+                    <img id="img_@r-@c" src="" alt="ERROR"/>
                 }
-            </div>
+            }
         </div>
+    </div>
+    <div class="scoreLevel">
+        <span class="score">SCORE: 57</span>
+        <span class="level">LEVEL: WORM</span>
     </div>
 </div>
 

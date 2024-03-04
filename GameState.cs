@@ -1,4 +1,5 @@
 ﻿using System;
+using SignalRChat.Hubs;
 using Snake.Data;
 
 namespace Snake
@@ -12,11 +13,12 @@ namespace Snake
 		public Direction Dir { get; set; }
 		public int Score { get; private set; }
 		public bool GameOver { get; private set; }
+		public static int Testing { get; }
 
 
-		// Fields
-		private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();	// Init list of Positions (x's,y's) currently occupied by the snake.
-		private readonly Random random = new Random();	// Init Food spawn variable
+        // Fields
+        private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();	// Init list of Positions (x's,y's) currently occupied by the snake.
+		private readonly Random random = new Random();  // Init Food spawn variable
 
 
         // Constructor
@@ -32,8 +34,8 @@ namespace Snake
         }
 
 
-		// A method that sets starting rows&cols for snake and adds snake to the grid & the list
-		private void AddSnake()
+        // A method that sets starting rows&cols for snake and adds snake to the grid & the list
+        private void AddSnake()
 		{
             // Adds it to the middle row
             int r = Rows / 2;
@@ -83,27 +85,27 @@ namespace Snake
 
 
 		// Get positon of snake head
-		public Position HeadPosition()
+		private Position HeadPosition()
 		{
 			// Get the first element in the linked list (The r,c of that first element)
 			return snakePositions.First.Value;
 		}
 
 
-		public Position TailPosition()
+		private Position TailPosition()
 		{
 			return snakePositions.Last.Value;
 		}
 
 
 		// Returns an enumerable list all the r,c values of the snake 
-		public IEnumerable<Position> SnakePosition()
+		private IEnumerable<Position> SnakePosition()
 		{
 			return snakePositions;
 		}
 
 		// Adds head to new sqaure when snake moves
-		public void AddHead(Position pos)
+		private void AddHead(Position pos)
 		{
 			// Add a value to the beginning of the list
 			snakePositions.AddFirst(pos);
@@ -112,7 +114,7 @@ namespace Snake
 		}
 
 		// Removes the tail from the previous grid square
-		public void RemoveTail()
+		private void RemoveTail()
 		{
 			Position tail = snakePositions.Last.Value;
 			// Set the grid value to empty

@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
 
 *,
 *::before,
@@ -6,12 +6,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Lexend Zetta", sans-serif;
+    font-family: "Londrina Solid", sans-serif;
     scroll-behavior: smooth;
 }
 
 :root {
-    --background: #414141;
+    --background: #4C5E4D;
     --darkGreen: #3F4235;
     --mediumGreen: #5C614A;
     --lightGreen: #8D9572;
@@ -19,56 +19,31 @@
     --lightTan: #C7CFA7;
 }
 
-html {
+/*html {
     font-size: calc(100vw / 144);
-}
+}*/
 
-.scoreLives {
+
+.outterFrame {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    margin-top: 1rem;
-}
-
-.scoreContainer {
-    display: flex;
-    align-items: center;
-}
-
-.score {
-    font-size: 5.8rem;
-    color: var(--lightTan);
-    -webkit-text-stroke: 0.5rem var(--mediumGreen);
-    text-stroke: 0.5rem var(--mediumGreen);
-}
-
-.frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.outerBorder {
-    background-color: var(--mediumGreen);
-    border-radius: 3.2rem;
-    width: 96rem;
-    height: 57.6rem;
-    margin-top: 2rem;
-}
-
-.innerBorder {
+    padding-top: 30px;
     background-color: var(--lightGreen);
-    border: 0.8rem solid var(--darkTan);
-    border-radius: 2.2rem;
-    width: 93rem;
-    height: 54.6rem;
+    border: 8px solid var(--darkTan);
+    border-radius: 22px;
+    width: 938px;
+    height: 570px;
 }
 
 .gridBorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--darkTan);
-    border: 0.8rem solid var(--mediumGreen);
-    width: 86.2rem;
-    height: 44.2rem;
+    border: 8px solid var(--mediumGreen);
+    width: 862px;
+    height: 442px;
 }
 
 .grid {
@@ -76,4 +51,20 @@ html {
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(12, 1fr);
     gap: 0;
+}
+
+.scoreLevel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    padding: 0px 38px;
+}
+
+.score, .level {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--mediumGreen);
+    letter-spacing: 1px;
 }

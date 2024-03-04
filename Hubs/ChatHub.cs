@@ -19,11 +19,12 @@ namespace SignalRChat.Hubs
 
 
         // Fields
-        private static readonly int rows = 12, cols = 20;
+        private static readonly int rows = 12, cols = 20; // Central location to change # of rows & cols.
         public GameState gameState = new GameState(rows, cols);
         public GridValue gridVal = GridValue.Empty;
-        private readonly object lockObj = new object();
         private readonly ILogger<ChatHub> _logger;
+        private Direction nextDirection = Direction.Right;
+
 
 
         // Constructor
@@ -31,10 +32,10 @@ namespace SignalRChat.Hubs
         {
             _logger = logger;
         }
-
+        
 
         // Method sets up initial board by returning a List<> of completed img tags.
-        public List<string> DrawGrid()
+        private List<string> DrawGrid()
         {
             List<string> imgTags = new() { };
             for(int r = 0; r < 12; r++)
@@ -53,9 +54,9 @@ namespace SignalRChat.Hubs
         // Method updates Client with new board 
         public async Task GameLoop()
         {
-            while (!gameState.GameOver)
+            if (!gameState.GameOver)
             {
-                await Task.Delay(500);
+                gameState.ChangeDirection(nextDirection);   // Check for updates from ClientDirection() using events
                 gameState.Move();
                 await Clients.All.SendAsync("UpdateUi", DrawGrid());
             }
@@ -73,19 +74,19 @@ namespace SignalRChat.Hubs
             switch (key)
             {
                 case "ArrowUp":
-                    gameState.ChangeDirection(Direction.Up);
+                    nextDirection = Direction.Up;
                     break;
 
                 case "ArrowDown":
-                    gameState.Dir = Direction.Down;
+                    nextDirection = Direction.Down;
                     break;
 
                 case "ArrowLeft":
-                    gameState.Dir = Direction.Left;
+                    nextDirection = Direction.Left;
                     break;
 
                 case "ArrowRight":
-                    gameState.Dir = Direction.Right;
+                    nextDirection = Direction.Right;
                     break;
             }
         }

@@ -1,1 +1,1 @@
-﻿console.log("Site.js connected");
+﻿// General JavaScript file

@@ -1,18 +1,38 @@
 /* _content/Snake/Pages/Shared/_Layout.cshtml.rz.scp.css */
 nav[b-jslkyl608j] {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
     background-color: var(--background);
-    width: 100vw;
+    padding: 25px 70px 0px 70px;
 }
 
 .logo[b-jslkyl608j] {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    margin-left: 7rem;
+}
+
+.pauseBtn[b-jslkyl608j] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 42px;
+    background-color: var(--lightGreen);
+    border: 5px solid var(--darkTan);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pauseBtn:hover[b-jslkyl608j] {
+    cursor: pointer;
+}
+
+.pauseBtn span[b-jslkyl608j] {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--darkTan);
+    letter-spacing: 5px;
 }
 
 main[b-jslkyl608j] {
@@ -21,6 +41,56 @@ main[b-jslkyl608j] {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--background);
+    padding-top: 77px;
     width: 100vw;
     height: 100vh;
+}
+
+footer[b-jslkyl608j] {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: var(--lightGreen);
+    height: 100px;
+    width: 100vw;
+}
+
+.followUsTxt[b-jslkyl608j] {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--lightTan);
+    letter-spacing: 1px;
+}
+
+.socialMedia[b-jslkyl608j] {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    width: 173px;
+}
+
+.footerLinks[b-jslkyl608j] {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 473px;
+    margin-right: 70px;
+    right: 0;
+}
+
+.footerLinks a[b-jslkyl608j] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinks a span[b-jslkyl608j] {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--lightTan);
+    text-decoration: underline;
+    white-space: nowrap;
+    letter-spacing: 1px;
 }
