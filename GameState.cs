@@ -13,12 +13,12 @@ namespace Snake
 		public Direction Dir { get; set; }
 		public int Score { get; private set; }
 		public bool GameOver { get; private set; }
-		public static int Testing { get; }
 
 
-        // Fields
-        private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();	// Init list of Positions (x's,y's) currently occupied by the snake.
-		private readonly Random random = new Random();  // Init Food spawn variable
+		// Fields
+		public readonly LinkedList<Direction> dirChnages = new();
+        private readonly LinkedList<Position> snakePositions = new();	// Init list of Positions (x's,y's) currently occupied by the snake.
+		private readonly Random random = new();  // Init Food spawn variable
 
 
         // Constructor
@@ -123,16 +123,42 @@ namespace Snake
         }
 
 
+		private Direction GetLastDirection()
+		{
+			if (dirChnages.Count == 0)
+			{
+				return Dir;
+			}
+
+			return dirChnages.Last.Value;
+		}
+
+
+		private bool CanChnageDirection(Direction newDir)
+		{
+			if(dirChnages.Count == 2)
+			{
+				return false;
+			}
+
+			Direction lastDir = GetLastDirection();
+			return newDir != lastDir && newDir != lastDir.Opposite();
+		}
+
+
 		public void ChangeDirection(Direction dir)
 		{
-			Dir = dir;
+			if (CanChnageDirection(dir))
+			{
+                dirChnages.AddLast(dir);
+            }
 		}
 
 
 		// Checks if parameter is outside the grid
 		private bool OutsideGrid(Position pos)
 		{
-			return pos.Row < 0 || pos.Col < 0 || pos.Row >= 12 || pos.Col >= 20;
+			return pos.Row < 0 || pos.Col < 0 || pos.Row >= GameLoop.rows || pos.Col >= GameLoop.cols;
         }
 
 
@@ -159,6 +185,12 @@ namespace Snake
 		// Move snake one space in the current direction
 		public void Move()
 		{
+			if (dirChnages.Count > 0)
+			{
+				Dir = dirChnages.First.Value;
+				dirChnages.RemoveFirst();
+			}
+
 			Position newHeadPos = HeadPosition().Translate(Dir);
 			GridValue hit = WillHit(newHeadPos);	// Set hit = to the hit function plugging in the direction
 

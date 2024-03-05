@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EPQF7bLRXGlGWGGh0CMxFO7/KPD8yQRuAe79VbWh2NY=",
+  "Hash": "Shv4Mp+DPWurmAGXy0ur5mOJJmIrNVshZCs11NdAZLY=",
   "Source": "Snake",
   "BasePath": "_content/Snake",
   "Mode": "Default",
@@ -287,23 +287,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
-    },
-    {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/js/chat.js",
-      "SourceId": "Snake",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
-      "BasePath": "_content/Snake",
-      "RelativePath": "js/chat.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/chat.js"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/js/signalr/dist/browser/signalr.js",

@@ -2,6 +2,11 @@
 @model IndexModel
 @{}
 
+
+
+<!-- LEFT OFF: adding game start and end screens to ui-->
+
+
 <div class="outterFrame">
     <div class="gridBorder frame">
         <div class="grid">
@@ -9,16 +14,18 @@
             {
                 @for (int c = 0; c < 20; c++)
                 {
-                    <img id="img_@r-@c" src="" alt="ERROR"/>
+                    <img id="img_@r-@c" src="" />
                 }
             }
         </div>
+        <div class="overlay">
+            <span>PRESS ANY KEY TO BEGIN</span>
+        </div>
     </div>
     <div class="scoreLevel">
-        <span class="score">SCORE: 57</span>
+        <span class="score"></span>
         <span class="level">LEVEL: WORM</span>
     </div>
 </div>
 
 <script src="~/js/signalr/dist/browser/signalr.js"></script>
-<script src="~/js/chat.js"></script>
