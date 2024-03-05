@@ -1,61 +1,168 @@
-﻿"use strict";
+﻿// DOM Selectors
+const volume = document.getElementById("volume");
+const overlay = document.querySelector(".overlay");
+const loadContainer = document.getElementById("loadContainer");
+const easyBtn = document.getElementById("easyBtn");
+const mediumBtn = document.getElementById("mediumBtn");
+const hardBtn = document.getElementById("hardBtn");
+const countdownTxt = document.getElementById("countdownTxt");
+const uiScore = document.querySelector(".score");
+const uiLevel = document.querySelector(".level");
+const gameOverContainer = document.getElementById("gameOverContainer");
+const changeLevelBtn = document.getElementById("changeLevelBtn");
 
-// Connect to SignalR Hubs.
+
+// Variables & flags
+const rows = 12;
+const cols = 20;
+let dead = false;
+let currentLevel;
+let previousScore = 0;
+let noiseOn = true;
+
+
+// SignalR Config
 var gameLoopConnection = new signalR.HubConnectionBuilder().withUrl("/gameLoopHub").build();
 var directionConnection = new signalR.HubConnectionBuilder().withUrl("/directionHub").build();
-let gameStarted = false;
 
 
-// Receive list of imgs from server
-gameLoopConnection.on("UpdateUi", function (list) {
-    let i = 0
-    for (let r = 0; r < 12; r++) {
-        for (let c = 0; c < 20; c++) {
-            document.getElementById(`img_${r}-${c}`).src = list[i];
-            i++;
-        }
+// Event Listeners
+volume.addEventListener("click", () => {
+    if (volume.classList.contains("noiseOn")) {
+        noiseOn = false;
+        volume.src = '/assets/noVolume.svg';
+        volume.classList.remove("noiseOn")
+    } else {
+        noiseOn = true;
+        volume.src = '/assets/volume.svg';
+        volume.classList.add("noiseOn");
     }
-});
-
-
-// Dynamically render score 
-gameLoopConnection.on("ScoreUpdate", (serverScore) => {
-    document.querySelector(".score").textContent = `SCORE: ${serverScore}`;
+})
+easyBtn.addEventListener("click", () => initSequence("Easy", 250))
+mediumBtn.addEventListener("click", () => initSequence("Medium", 175))
+hardBtn.addEventListener("click", () => initSequence("Hard", 100))
+changeLevelBtn.addEventListener("click", () => {
+    gameOverContainer.style.display = "none";
+    loadContainer.style.display = "flex";
 })
 
 
-// Send keystroke data to server.
-document.addEventListener("keydown", async (e) => {
-    if (gameStarted) {
-        let overlay = document.querySelector(".overlay");
-        for (let i = 3; i > 0; i--) {
-            await setTimeout(() => {
-                console.log("iteration" + i)
-                overlay.firstElementChild.textContent = i;
-            }, 1000)
-        };
-        overlay.style.display = "none";
-        gameLoopConnection.invoke("StartLoop");
-    } else {
-        directionConnection.invoke("ClientDirection", e.key)
-        e.preventDefault();
+// Hides inital home screen
+function initSequence(difficulty, level) {
+    setInitBoard();
+    loadContainer.style.display = "none";
+    uiLevel.textContent = `Level: ${difficulty}`;
+    countdown(level);
+}
+
+
+// Creates a 1s delay
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+// Initiates countdown and sends server req
+async function countdown(level) {
+    currentLevel = level;
+    dead = false;
+    countdownTxt.style.display = "flex";
+    uiScore.textContent = "SCORE: 0"
+    let i = 3;
+    while (i >= 1) {
+        countdownTxt.textContent = i;
+        await delay(1000);
+        i--;
     }
+    overlay.style.display = "none";
+    countdownTxt.style.display = "none";
+    gameLoopConnection.invoke("StartLoop", level);
+}
+
+
+// Sets the UI to a grid of empty squares
+function setInitBoard() {
+    let i = 0
+    for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < cols; c++) {
+            document.getElementById(`img_${r}-${c}`).src = "/assets/empty.svg";
+            i++;
+        }
+    }
+}
+
+
+// Receives server res
+gameLoopConnection.on("UpdateUi", (list, serverScore, gameOver) => {
+    if (serverScore > previousScore && noiseOn) {
+        playAudio();
+    }
+    StartLoop(list);
+    uiScore.textContent = `SCORE: ${serverScore * 5}`;
+    if (gameOver) {
+        gameLoopConnection.invoke("GameOver");
+        GameOver();
+    }
+    previousScore = serverScore;
 });
 
 
+// Client-side game loop
+function StartLoop(imgs) {
+    let i = 0
+    for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < cols; c++) {
+            document.getElementById(`img_${r}-${c}`).src = imgs[i];
+            i++;
+        }
+    }
+}
+
+
+// Volume clicks
+function playAudio() {
+    var audio = new Audio('/assets/biteSound.mp3');
+    audio.play();
+}
+
+
+
+// Read keystrokes
+document.addEventListener("keydown", (e) => {
+    if (dead) {
+        gameOverContainer.style.display = "none"
+        countdown(currentLevel);
+    } else {
+        directionConnection.invoke("ClientDirection", e.key)
+    }
+    e.preventDefault();
+});
+
+
+// Game over
+async function GameOver() {
+    await delay(1000);
+    dead = true;
+    overlay.style.display = "flex";
+    gameOverContainer.style.display = "flex"
+    setInitBoard();
+}
+
+
+// Check GameLoopHub connection
 gameLoopConnection.start()
     .then(() => {
-        console.log("GameLoop Connection Successful");
-        gameStarted = true;
+        console.log("GameLoopHub Connection Successful");
     })
     .catch((err) => {
         return console.error(err.toString());
     });
 
 
+// Check DirectionHub connection
 directionConnection.start()
     .then(() => {
-        console.log("Direction Connection Successful");
+        console.log("DirectionHub Connection Successful");
     })
     .catch((err) => {
         return console.error(err.toString());

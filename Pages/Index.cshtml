@@ -3,10 +3,6 @@
 @{}
 
 
-
-<!-- LEFT OFF: adding game start and end screens to ui-->
-
-
 <div class="outterFrame">
     <div class="gridBorder frame">
         <div class="grid">
@@ -18,13 +14,40 @@
                 }
             }
         </div>
+
         <div class="overlay">
-            <span>PRESS ANY KEY TO BEGIN</span>
+            <div id="loadContainer" class="container">
+                <h1 class="snakeHeader">SNAKE</h1>
+                <h3 class="subheading">CHOOSE LEVEL</h3>
+                <div class="levels">
+                    <div id="easyBtn" class="btn">
+                        <span>Easy</span>
+                    </div>
+                    <div id="mediumBtn" class="btn">
+                        <span>Medium</span>
+                    </div>
+                    <div id="hardBtn" class="btn">
+                        <span>Hard</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <span id="countdownTxt" class="middleHeading">3</span>
+
+
+            <div id="gameOverContainer" class="container">
+                <h2 class="middleHeading">GAME OVER</h2>
+                <span id="pressKeyTxt" class="subheading">PRESS ANY KEY TO PLAY AGAIN</span>
+                <div id="changeLevelBtn" class="btn">
+                    <span>Change Level</span>
+                </div>
+            </div>
         </div>
     </div>
     <div class="scoreLevel">
-        <span class="score"></span>
-        <span class="level">LEVEL: WORM</span>
+        <span class="score">SCORE: </span>
+        <span class="level">LEVEL: </span>
     </div>
 </div>
 

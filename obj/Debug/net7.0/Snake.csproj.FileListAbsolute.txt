@@ -1,5 +1,6 @@
 /Users/lukeshivers/Desktop/Programming/Snake/bin/Debug/net7.0/appsettings.Development.json
 /Users/lukeshivers/Desktop/Programming/Snake/bin/Debug/net7.0/appsettings.json
+/Users/lukeshivers/Desktop/Programming/Snake/bin/Debug/net7.0/libman.json
 /Users/lukeshivers/Desktop/Programming/Snake/bin/Debug/net7.0/Snake.staticwebassets.runtime.json
 /Users/lukeshivers/Desktop/Programming/Snake/bin/Debug/net7.0/Snake
 /Users/lukeshivers/Desktop/Programming/Snake/bin/Debug/net7.0/Snake.deps.json
@@ -29,4 +30,3 @@
 /Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/Snake.pdb
 /Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/Snake.genruntimeconfig.cache
 /Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/ref/Snake.dll
-/Users/lukeshivers/Desktop/Programming/Snake/bin/Debug/net7.0/libman.json

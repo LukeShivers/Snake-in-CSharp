@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Reflection.Emit;
+using System.Text;
 using Microsoft.AspNetCore.SignalR;
 using Snake;
 using Snake.Data;
@@ -25,34 +26,19 @@ namespace SignalRChat.Hubs
         private readonly ILogger<GameLoop> _logger;
 
 
-
         // Constructor
         public GameLoop(ILogger<GameLoop> logger)
         {
             _logger = logger;
         }
 
-
-        // Runs game loop
-        public async Task StartLoop()
-        {
-            while (!gameState.GameOver)
-            {
-                await Task.Delay(150);
-                gameState.Move();
-                await Clients.All.SendAsync("UpdateUi", DrawGrid());
-                await Clients.All.SendAsync("ScoreUpdate", gameState.Score);
-            }
-        }
-
-
         // Method sets up initial board by returning a List<> of completed img tags.
         private List<string> DrawGrid()
         {
             List<string> imgTags = new() { };
-            for(int r = 0; r < 12; r++)
+            for (int r = 0; r < rows; r++)
             {
-                for (int c = 0; c < 20; c++)
+                for (int c = 0; c < cols; c++)
                 {
                     gridVal = gameState.Grid[r, c];     // Gets the binary value of an x,y in code version of game
                     string imageUrl = gridValToImage[gridVal];      // Sets a string var equal to the value in the dict
@@ -60,6 +46,24 @@ namespace SignalRChat.Hubs
                 }
             }
             return imgTags;
+        }
+
+
+        // Runs game loop
+        public async Task StartLoop(int Level)
+        {
+            while (!gameState.GameOver)
+            {
+                await Task.Delay(Level);
+                gameState.Move();
+                await Clients.All.SendAsync("UpdateUi", DrawGrid(), gameState.Score, gameState.GameOver);
+            }
+        }
+
+
+        public void GameOver()
+        {
+            gameState = new GameState(rows, cols);
         }
     }
 }

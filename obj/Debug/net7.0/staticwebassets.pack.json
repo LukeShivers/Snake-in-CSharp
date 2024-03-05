@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/assets/.DS_Store"
     },
     {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/biteSound.mp3",
+      "PackagePath": "staticwebassets/assets/biteSound.mp3"
+    },
+    {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/codepen.svg",
       "PackagePath": "staticwebassets/assets/codepen.svg"
     },
@@ -45,6 +49,14 @@
       "PackagePath": "staticwebassets/assets/linkedIn.svg"
     },
     {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/logoLight.svg",
+      "PackagePath": "staticwebassets/assets/logoLight.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/noVolume.svg",
+      "PackagePath": "staticwebassets/assets/noVolume.svg"
+    },
+    {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/snake.svg",
       "PackagePath": "staticwebassets/assets/snake.svg"
     },
@@ -53,12 +65,12 @@
       "PackagePath": "staticwebassets/assets/snakeLogo.svg"
     },
     {
-      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volume.svg",
+      "PackagePath": "staticwebassets/assets/volume.svg"
     },
     {
-      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/js/signalr/dist/browser/signalr.js",

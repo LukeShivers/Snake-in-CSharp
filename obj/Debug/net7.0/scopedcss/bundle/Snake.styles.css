@@ -2,6 +2,7 @@
 nav[b-jslkyl608j] {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     background-color: var(--background);
     padding: 25px 70px 0px 70px;
 }
@@ -12,27 +13,8 @@ nav[b-jslkyl608j] {
     align-items: center;
 }
 
-.pauseBtn[b-jslkyl608j] {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 140px;
-    height: 42px;
-    background-color: var(--lightGreen);
-    border: 5px solid var(--darkTan);
-    border-radius: 5px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.pauseBtn:hover[b-jslkyl608j] {
+.volumeContainer:hover[b-jslkyl608j] {
     cursor: pointer;
-}
-
-.pauseBtn span[b-jslkyl608j] {
-    font-size: 24px;
-    font-weight: 900;
-    color: var(--lightTan);
-    letter-spacing: 5px;
 }
 
 main[b-jslkyl608j] {

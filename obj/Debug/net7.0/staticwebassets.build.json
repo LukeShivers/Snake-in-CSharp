@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Shv4Mp+DPWurmAGXy0ur5mOJJmIrNVshZCs11NdAZLY=",
+  "Hash": "HURnRfC2GAl/ifdquC7OEECECorS6m+RBIUD9LytQb4=",
   "Source": "Snake",
   "BasePath": "_content/Snake",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/.DS_Store"
+    },
+    {
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/biteSound.mp3",
+      "SourceId": "Snake",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "BasePath": "_content/Snake",
+      "RelativePath": "assets/biteSound.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/biteSound.mp3"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/codepen.svg",
@@ -221,6 +238,40 @@
       "OriginalItemSpec": "wwwroot/assets/linkedIn.svg"
     },
     {
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/logoLight.svg",
+      "SourceId": "Snake",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "BasePath": "_content/Snake",
+      "RelativePath": "assets/logoLight.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/logoLight.svg"
+    },
+    {
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/noVolume.svg",
+      "SourceId": "Snake",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "BasePath": "_content/Snake",
+      "RelativePath": "assets/noVolume.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/noVolume.svg"
+    },
+    {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/snake.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
@@ -255,6 +306,23 @@
       "OriginalItemSpec": "wwwroot/assets/snakeLogo.svg"
     },
     {
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volume.svg",
+      "SourceId": "Snake",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "BasePath": "_content/Snake",
+      "RelativePath": "assets/volume.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/volume.svg"
+    },
+    {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/css/site.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
@@ -270,23 +338,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
-    },
-    {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/favicon.ico",
-      "SourceId": "Snake",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
-      "BasePath": "_content/Snake",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/js/signalr/dist/browser/signalr.js",
