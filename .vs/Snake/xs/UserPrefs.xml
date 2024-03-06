@@ -1,28 +1,38 @@
 ﻿<Properties StartupConfiguration="{4CA601F4-F011-4A93-8C5D-1B153AB49285}|https">
+  <MonoDevelop.Ide.ItemProperties.Snake PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Shared/_Layout.cshtml.css">
     <Files>
-      <File FileName="Program.cs" Line="30" Column="1" />
+      <File FileName="wwwroot/js/site.js" Line="53" Column="42" />
+      <File FileName="Pages/Shared/_Layout.cshtml.css" Line="4" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Snake">
-            <Node name="Snake" expanded="True">
+            <Node name="Snake">
+              <Node name="Hubs" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True" />
+                <Node name="css" expanded="True" />
                 <Node name="js" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Snake PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>

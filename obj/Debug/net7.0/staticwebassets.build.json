@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HURnRfC2GAl/ifdquC7OEECECorS6m+RBIUD9LytQb4=",
+  "Hash": "PAGXCRr2mJ8gMt24AK1oZ1pOfJoVCy4b2o0CEzd4yL4=",
   "Source": "Snake",
   "BasePath": "_content/Snake",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot/assets/.DS_Store"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/biteSound.mp3",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/bite.mp3",
       "SourceId": "Snake",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
       "BasePath": "_content/Snake",
-      "RelativePath": "assets/biteSound.mp3",
+      "RelativePath": "assets/bite.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/biteSound.mp3"
+      "OriginalItemSpec": "wwwroot/assets/bite.mp3"
+    },
+    {
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/buttonClick.mp3",
+      "SourceId": "Snake",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "BasePath": "_content/Snake",
+      "RelativePath": "assets/buttonClick.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/buttonClick.mp3"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/codepen.svg",
@@ -151,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/emptyHeart.svg"
+    },
+    {
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fail.mp3",
+      "SourceId": "Snake",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "BasePath": "_content/Snake",
+      "RelativePath": "assets/fail.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/fail.mp3"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/food.svg",
@@ -321,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/volume.svg"
+    },
+    {
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volumeClick.mp3",
+      "SourceId": "Snake",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "BasePath": "_content/Snake",
+      "RelativePath": "assets/volumeClick.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/volumeClick.mp3"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/css/site.css",

@@ -10,6 +10,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.logo:hover {
+    translate: 0 -5px;
 }
 
 .volumeContainer:hover {
@@ -22,7 +29,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--background);
-    padding-top: 77px;
+    padding-top: 47px;
     width: 100vw;
     height: 100vh;
 }
@@ -51,6 +58,16 @@ footer {
     width: 173px;
 }
 
+.socialItem {
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.socialItem:hover {
+    translate: 0 -5px;
+}
+
 .footerLinks {
     display: flex;
     position: absolute;
@@ -65,6 +82,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
 }
 
 .footerLinks a span {
@@ -74,4 +94,8 @@ footer {
     text-decoration: underline;
     white-space: nowrap;
     letter-spacing: 1px;
+}
+
+.footerLinks a span:hover {
+    color: var(--darkGreen);
 }

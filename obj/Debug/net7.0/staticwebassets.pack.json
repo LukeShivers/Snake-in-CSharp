@@ -13,8 +13,12 @@
       "PackagePath": "staticwebassets/assets/.DS_Store"
     },
     {
-      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/biteSound.mp3",
-      "PackagePath": "staticwebassets/assets/biteSound.mp3"
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/bite.mp3",
+      "PackagePath": "staticwebassets/assets/bite.mp3"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/buttonClick.mp3",
+      "PackagePath": "staticwebassets/assets/buttonClick.mp3"
     },
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/codepen.svg",
@@ -27,6 +31,10 @@
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/emptyHeart.svg",
       "PackagePath": "staticwebassets/assets/emptyHeart.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fail.mp3",
+      "PackagePath": "staticwebassets/assets/fail.mp3"
     },
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/food.svg",
@@ -67,6 +75,10 @@
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volume.svg",
       "PackagePath": "staticwebassets/assets/volume.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volumeClick.mp3",
+      "PackagePath": "staticwebassets/assets/volumeClick.mp3"
     },
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/css/site.css",

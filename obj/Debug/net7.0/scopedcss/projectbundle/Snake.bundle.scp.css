@@ -11,6 +11,13 @@ nav[b-jslkyl608j] {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.logo:hover[b-jslkyl608j] {
+    translate: 0 -5px;
 }
 
 .volumeContainer:hover[b-jslkyl608j] {
@@ -23,7 +30,7 @@ main[b-jslkyl608j] {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--background);
-    padding-top: 77px;
+    padding-top: 47px;
     width: 100vw;
     height: 100vh;
 }
@@ -52,6 +59,16 @@ footer[b-jslkyl608j] {
     width: 173px;
 }
 
+.socialItem[b-jslkyl608j] {
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.socialItem:hover[b-jslkyl608j] {
+    translate: 0 -5px;
+}
+
 .footerLinks[b-jslkyl608j] {
     display: flex;
     position: absolute;
@@ -66,6 +83,9 @@ footer[b-jslkyl608j] {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
 }
 
 .footerLinks a span[b-jslkyl608j] {
@@ -75,4 +95,8 @@ footer[b-jslkyl608j] {
     text-decoration: underline;
     white-space: nowrap;
     letter-spacing: 1px;
+}
+
+.footerLinks a span:hover[b-jslkyl608j] {
+    color: var(--darkGreen);
 }

@@ -107,6 +107,9 @@
     color: var(--lightTan);
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
 }
 
 .btn:hover {
@@ -114,6 +117,7 @@
     border: 5px solid var(--darkTan);
     color: var(--darkTan);
     cursor: pointer;
+    translate: 0 -5px;
 }
 
 .btn span {

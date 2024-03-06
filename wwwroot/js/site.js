@@ -5,6 +5,7 @@ const loadContainer = document.getElementById("loadContainer");
 const easyBtn = document.getElementById("easyBtn");
 const mediumBtn = document.getElementById("mediumBtn");
 const hardBtn = document.getElementById("hardBtn");
+const btn = document.querySelectorAll(".btn");
 const countdownTxt = document.getElementById("countdownTxt");
 const uiScore = document.querySelector(".score");
 const uiLevel = document.querySelector(".level");
@@ -28,6 +29,7 @@ var directionConnection = new signalR.HubConnectionBuilder().withUrl("/direction
 
 // Event Listeners
 volume.addEventListener("click", () => {
+    playAudio("/assets/volumeClick.mp3");
     if (volume.classList.contains("noiseOn")) {
         noiseOn = false;
         volume.src = '/assets/noVolume.svg';
@@ -38,10 +40,28 @@ volume.addEventListener("click", () => {
         volume.classList.add("noiseOn");
     }
 })
-easyBtn.addEventListener("click", () => initSequence("Easy", 250))
-mediumBtn.addEventListener("click", () => initSequence("Medium", 175))
-hardBtn.addEventListener("click", () => initSequence("Hard", 100))
+easyBtn.addEventListener("click", () => {
+    if (noiseOn) {
+        playAudio("/assets/buttonClick.mp3");
+    }
+    initSequence("Easy", 250)
+});
+mediumBtn.addEventListener("click", () => {
+    if (noiseOn) {
+        playAudio("/assets/buttonClick.mp3");
+    }
+    initSequence("Medium", 175)
+})
+hardBtn.addEventListener("click", () => {
+    if (noiseOn) {
+        playAudio("/assets/buttonClick.mp3");
+    }
+    initSequence("Hard", 100)
+})
 changeLevelBtn.addEventListener("click", () => {
+    if (noiseOn) {
+        playAudio("/assets/buttonClick.mp3");
+    }
     gameOverContainer.style.display = "none";
     loadContainer.style.display = "flex";
 })
@@ -70,6 +90,9 @@ async function countdown(level) {
     uiScore.textContent = "SCORE: 0"
     let i = 3;
     while (i >= 1) {
+        if (noiseOn) {
+            playAudio("/assets/volumeClick.mp3");
+        }
         countdownTxt.textContent = i;
         await delay(1000);
         i--;
@@ -95,7 +118,7 @@ function setInitBoard() {
 // Receives server res
 gameLoopConnection.on("UpdateUi", (list, serverScore, gameOver) => {
     if (serverScore > previousScore && noiseOn) {
-        playAudio();
+        playAudio('/assets/bite.mp3');
     }
     StartLoop(list);
     uiScore.textContent = `SCORE: ${serverScore * 5}`;
@@ -120,8 +143,8 @@ function StartLoop(imgs) {
 
 
 // Volume clicks
-function playAudio() {
-    var audio = new Audio('/assets/biteSound.mp3');
+function playAudio(link) {
+    var audio = new Audio(link);
     audio.play();
 }
 
@@ -141,6 +164,9 @@ document.addEventListener("keydown", (e) => {
 
 // Game over
 async function GameOver() {
+    if (noiseOn) {
+        playAudio("/assets/fail.mp3");
+    }
     await delay(1000);
     dead = true;
     overlay.style.display = "flex";
