@@ -6,6 +6,7 @@
 <div class="outterFrame">
     <div class="gridBorder frame">
         <div class="grid">
+            <!-- Create initial <img> tags, populated with img in site.js -->
             @for (int r = 0; r < 12; r++)
             {
                 @for (int c = 0; c < 20; c++)
@@ -16,7 +17,7 @@
         </div>
 
         <div class="overlay">
-            <div id="loadContainer" class="container">
+            <div id="initLoadContainer" class="container">
                 <h1 class="snakeHeader">SNAKE</h1>
                 <h3 class="subheading">CHOOSE LEVEL</h3>
                 <div class="levels">

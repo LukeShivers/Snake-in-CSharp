@@ -24,8 +24,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-app.MapHub<GameLoop>("/gameLoopHub");
+app.MapHub<GameHub>("/gameHub");
 app.MapHub<DirectionHub>("/directionHub");
 
 app.Run();
-

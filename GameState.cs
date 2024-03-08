@@ -1,62 +1,52 @@
-﻿using System;
-using SignalRChat.Hubs;
+﻿using SignalRChat.Hubs;
 using Snake.Data;
 
 namespace Snake
 {
 	public class GameState
 	{
-        // Init Properties
         public int Rows { get; }
         public int Cols { get; }
-		public GridValue[,] Grid { get; } // The code Grid itself, a 2-D array of GridValues.
+		public GridValue[,] Grid { get; }	// The game grid itself
 		public Direction Dir { get; set; }
 		public int Score { get; private set; }
 		public bool GameOver { get; private set; }
 
 
-		// Fields
 		public readonly LinkedList<Direction> dirChnages = new();
-        private readonly LinkedList<Position> snakePositions = new();	// Init list of Positions (x's,y's) currently occupied by the snake.
-		private readonly Random random = new();  // Init Food spawn variable
+        private readonly LinkedList<Position> snakePositions = new();
+		private readonly Random random = new();
 
 
-        // Constructor
         public GameState(int rows, int cols)
         {
-            Rows = rows; // Updates Rows variable to the number of rows given
-            Cols = cols; // Updates Cols variable to the number of cols given
-            Grid = new GridValue[rows, cols]; // Makes a 2-D array with certain# of rows and certain# of cols. 
-			Dir = Direction.Right; // Start snake right
-
+            Rows = rows;
+            Cols = cols;
+            Grid = new GridValue[rows, cols];
+			Dir = Direction.Right;	// Set starting direction of snake
 			AddSnake();
 			AddFood();
         }
 
 
-        // A method that sets starting rows&cols for snake and adds snake to the grid & the list
         private void AddSnake()
 		{
-            // Adds it to the middle row
             int r = Rows / 2;
-
-			// Loops over colummns 1,2,3
             for (int c = 1; c <= 3; c++)
             {
-				Grid[r, c] = GridValue.Snake; // Updates Grid array to add snake square to row# row/2 and col# 1,2,3.
-				snakePositions.AddFirst(new Position(r, c)); // Add snake squares to the start of the list after each iteration of loop
+				Grid[r, c] = GridValue.Snake;
+				snakePositions.AddFirst(new Position(r, c));
             }
         }
 
 
-		// Create a method that iterates though all grid positions and returns Position objects for each empty grid position.
 		private IEnumerable<Position> EmptyPositions()
 		{
 			for(int r = 0; r < Rows; r++)
 			{
 				for(int c = 0; c < Cols; c++)
 				{
-					if (Grid[r, c] == GridValue.Empty) // If the value at grid value r, c (loop) is empty then...
+					if (Grid[r, c] == GridValue.Empty)
 					{
 						yield return new Position(r, c);
 					}
@@ -65,29 +55,20 @@ namespace Snake
 		}
 
 
-		// Adds food square 
 		private void AddFood()
 		{
-			// List called 'empty' of empty grid squares 
 			List<Position> empty = new List<Position>(EmptyPositions()); 
-
-			// If no empty squares (game beat)
-			if (empty.Count == 0)
-			{
+			if (empty.Count == 0)	// Game has been beaten
+            {
 				return;
 			}
-
-			// returns a Position obj from the 'empty' list between 0 and the number of empty squares.
 			Position pos = empty[random.Next(empty.Count)];
-			// sets GridValue.Food = to that row and col.
 			Grid[pos.Row, pos.Col] = GridValue.Food;
 		}
 
 
-		// Get positon of snake head
 		private Position HeadPosition()
 		{
-			// Get the first element in the linked list (The r,c of that first element)
 			return snakePositions.First.Value;
 		}
 
@@ -98,26 +79,16 @@ namespace Snake
 		}
 
 
-		// Returns an enumerable list all the r,c values of the snake 
-		private IEnumerable<Position> SnakePosition()
-		{
-			return snakePositions;
-		}
-
-		// Adds head to new sqaure when snake moves
 		private void AddHead(Position pos)
 		{
-			// Add a value to the beginning of the list
 			snakePositions.AddFirst(pos);
-			// Add snake to the grid value 
 			Grid[pos.Row, pos.Col] = GridValue.Snake;
 		}
 
-		// Removes the tail from the previous grid square
+
 		private void RemoveTail()
 		{
 			Position tail = snakePositions.Last.Value;
-			// Set the grid value to empty
             Grid[tail.Row, tail.Col] = GridValue.Empty;
 			snakePositions.RemoveLast();
         }
@@ -129,7 +100,6 @@ namespace Snake
 			{
 				return Dir;
 			}
-
 			return dirChnages.Last.Value;
 		}
 
@@ -140,7 +110,6 @@ namespace Snake
 			{
 				return false;
 			}
-
 			Direction lastDir = GetLastDirection();
 			return newDir != lastDir && newDir != lastDir.Opposite();
 		}
@@ -155,29 +124,23 @@ namespace Snake
 		}
 
 
-		// Checks if parameter is outside the grid
+		// Check if position is outside the grid
 		private bool OutsideGrid(Position pos)
 		{
-			return pos.Row < 0 || pos.Col < 0 || pos.Row >= GameLoop.rows || pos.Col >= GameLoop.cols;
+			return pos.Row < 0 || pos.Col < 0 || pos.Row >= GameHub.rows || pos.Col >= GameHub.cols;
         }
 
 
-		// Returns what the snake will hit when it moves
 		private GridValue WillHit(Position newHeadPos)
 		{
-			// If snake hits outside parameter
 			if (OutsideGrid(newHeadPos))
 			{
 				return GridValue.Outside;
 			}
-
-			// If head almost hits tail
-			if (newHeadPos == TailPosition())
+			else if (newHeadPos == TailPosition())
 			{
 				return GridValue.Empty;
 			}
-
-			// If snake doesn't hit anything return that position.
 			return Grid[newHeadPos.Row, newHeadPos.Col];
 		}
 
@@ -192,7 +155,7 @@ namespace Snake
 			}
 
 			Position newHeadPos = HeadPosition().Translate(Dir);
-			GridValue hit = WillHit(newHeadPos);	// Set hit = to the hit function plugging in the direction
+			GridValue hit = WillHit(newHeadPos);
 
 			if (hit == GridValue.Outside || hit == GridValue.Snake)
 			{
@@ -212,4 +175,3 @@ namespace Snake
         }
     }
 }
-

@@ -29,10 +29,6 @@
       "PackagePath": "staticwebassets/assets/empty.svg"
     },
     {
-      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/emptyHeart.svg",
-      "PackagePath": "staticwebassets/assets/emptyHeart.svg"
-    },
-    {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fail.mp3",
       "PackagePath": "staticwebassets/assets/fail.mp3"
     },
@@ -41,8 +37,8 @@
       "PackagePath": "staticwebassets/assets/food.svg"
     },
     {
-      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fullHeart.svg",
-      "PackagePath": "staticwebassets/assets/fullHeart.svg"
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gamePlay.svg",
+      "PackagePath": "staticwebassets/assets/gamePlay.svg"
     },
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gitHub.svg",
@@ -57,8 +53,8 @@
       "PackagePath": "staticwebassets/assets/linkedIn.svg"
     },
     {
-      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/logoLight.svg",
-      "PackagePath": "staticwebassets/assets/logoLight.svg"
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/logo.svg",
+      "PackagePath": "staticwebassets/assets/logo.svg"
     },
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/noVolume.svg",
@@ -67,10 +63,6 @@
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/snake.svg",
       "PackagePath": "staticwebassets/assets/snake.svg"
-    },
-    {
-      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/snakeLogo.svg",
-      "PackagePath": "staticwebassets/assets/snakeLogo.svg"
     },
     {
       "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volume.svg",

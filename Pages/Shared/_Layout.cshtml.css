@@ -1,4 +1,9 @@
-﻿nav {
+﻿body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -24,14 +29,19 @@
 }
 
 main {
+    flex: 1;
+    overflow-y: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background-color: var(--background);
-    padding-top: 47px;
     width: 100vw;
-    height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        height: calc(100vh - 100px);
+    }
 }
 
 footer {
@@ -39,11 +49,11 @@ footer {
     position: relative;
     align-items: center;
     background-color: var(--lightGreen);
-    height: 100px;
+    height: 75px;
     width: 100vw;
 }
 
-.followUsTxt {
+#followUsTxt {
     margin-left: 70px;
     font-size: 20px;
     font-weight: 400;
@@ -79,23 +89,17 @@ footer {
 }
 
 .footerLinks a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-out;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-}
-
-.footerLinks a span {
     font-size: 14px;
     font-weight: 300;
     color: var(--lightTan);
     text-decoration: underline;
     white-space: nowrap;
     letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
 }
 
-.footerLinks a span:hover {
+.footerLinks a:hover {
     color: var(--darkGreen);
 }

@@ -1,47 +1,29 @@
-﻿using System;
-using Microsoft.AspNetCore.SignalR;
+﻿using Microsoft.AspNetCore.SignalR;
 using Snake;
 
 namespace SignalRChat.Hubs
 {
 	public class DirectionHub : Hub
 	{
-
-
-        // Fields
-        private readonly ILogger<DirectionHub> _logger;
-
-
-        // Constructor
-        public DirectionHub(ILogger<DirectionHub> logger)
-        {
-            _logger = logger;
-        }
-
-
         public void ClientDirection(string key)
         {
-            if (GameLoop.gameState.GameOver)
+            if (GameHub.gameState.GameOver) // For Game bring beat, not snake dying
             {
                 return;
             }
-
             switch (key)
             {
                 case "ArrowUp":
-                    GameLoop.gameState.ChangeDirection(Direction.Up);
+                    GameHub.gameState.ChangeDirection(Direction.Up);
                     break;
-
                 case "ArrowDown":
-                    GameLoop.gameState.ChangeDirection(Direction.Down);
+                    GameHub.gameState.ChangeDirection(Direction.Down);
                     break;
-
                 case "ArrowLeft":
-                    GameLoop.gameState.ChangeDirection(Direction.Left);
+                    GameHub.gameState.ChangeDirection(Direction.Left);
                     break;
-
                 case "ArrowRight":
-                    GameLoop.gameState.ChangeDirection(Direction.Right);
+                    GameHub.gameState.ChangeDirection(Direction.Right);
                     break;
             }
         }

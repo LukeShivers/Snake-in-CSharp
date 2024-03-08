@@ -1,0 +1,105 @@
+body[b-jslkyl608j] {
+    display: flex;
+    flex-direction: column;
+}
+
+nav[b-jslkyl608j] {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: var(--background);
+    padding: 25px 70px 0px 70px;
+}
+
+.logo[b-jslkyl608j] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.logo:hover[b-jslkyl608j] {
+    translate: 0 -5px;
+}
+
+.volumeContainer:hover[b-jslkyl608j] {
+    cursor: pointer;
+}
+
+main[b-jslkyl608j] {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    width: 100vw;
+}
+
+@media screen and (min-width: 600px) {
+    main[b-jslkyl608j] {
+        height: calc(100vh - 100px);
+    }
+}
+
+footer[b-jslkyl608j] {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: var(--lightGreen);
+    height: 75px;
+    width: 100vw;
+}
+
+#followUsTxt[b-jslkyl608j] {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--lightTan);
+    letter-spacing: 1px;
+}
+
+.socialMedia[b-jslkyl608j] {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    width: 173px;
+}
+
+.socialItem[b-jslkyl608j] {
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.socialItem:hover[b-jslkyl608j] {
+    translate: 0 -5px;
+}
+
+.footerLinks[b-jslkyl608j] {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 473px;
+    margin-right: 70px;
+    right: 0;
+}
+
+.footerLinks a[b-jslkyl608j] {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--lightTan);
+    text-decoration: underline;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.footerLinks a:hover[b-jslkyl608j] {
+    color: var(--darkGreen);
+}

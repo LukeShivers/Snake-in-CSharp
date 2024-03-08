@@ -1,0 +1,8 @@
+/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/PubTmp/Out/Snake
+/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/PubTmp/Out/appsettings.Development.json
+/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/PubTmp/Out/appsettings.json
+/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/PubTmp/Out/libman.json
+/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/PubTmp/Out/Snake.dll
+/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/PubTmp/Out/Snake.deps.json
+/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/PubTmp/Out/Snake.runtimeconfig.json
+/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/PubTmp/Out/Snake.pdb

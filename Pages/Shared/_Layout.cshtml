@@ -1,59 +1,56 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snake</title>
-    <meta name="description" content="Play classic snake here!">
-    <meta name="author" content="Luke Shivers">
-    <link rel="icon" href="~/assets/logoLight.svg" sizes="any">
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Snake.styles.css" asp-append-version="true" />
-</head>
-<body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Snake</title>
+        <meta name="description" content="Play classic snake for free online. Eat, grow, and have fun!">
+        <meta name="author" content="Luke Shivers">
+        <link rel="icon" href="~/assets/logo.svg" sizes="any">
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Snake.styles.css" asp-append-version="true" />
+    </head>
 
-    <!-- Nav -->
-    <nav>
-        <a class="logo" href="/">
-            <img src="~/assets/logoLight.svg" alt="Logo">
-        </a>
-        <div class="volumeContainer">
-            <img src="~/assets/volume.svg" id="volume" class="noiseOn" alt="volume" />
-        </div>
-    </nav>
+    <body>
+        <nav>
+            <a class="logo" href="/">
+                <img src="~/assets/logo.svg" alt="Logo">
+            </a>
+            <div class="volumeContainer">
+                <img src="~/assets/volume.svg" id="volume" class="noiseOn" alt="volumeIcon" />
+            </div>
+        </nav>
 
-    <!-- Main -->
-    <main>
-        @RenderBody()
-    </main>
+        <main>
+            @RenderBody()
+        </main>
 
-    <!-- Footer -->
-    <footer>
-        <span class="followUsTxt">Follow us</span>
-        <div class="socialMedia">
-            <a href="https://www.linkedin.com/in/luke-shivers/" target="_blank" class="socialItem">
-                <img src="~/assets/linkedIn.svg" alt="LinkedIn" />
-            </a>
-            <a href="https://github.com/LukeShivers" target="_blank" class="socialItem">
-                <img src="~/assets/gitHub.svg" alt="GitHub" />
-            </a>
-            <a href="https://www.instagram.com/luke_shivers/" target="_blank" class="socialItem">
-                <img src="~/assets/instagram.svg" alt="Instagram" />
-            </a>
-            <a href="https://codepen.io/Luke-Shivers" target="_blank" class="socialItem">
-                <img src="~/assets/codepen.svg" alt="Codepen" />
-            </a>
-        </div>
-        <div class="footerLinks">
-            <a href="https://github.com/LukeShivers/Snake-in-CSharp" target="_blank"><span>Source Code</span></a>
-            <a href="https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core" target="_blank"><span>Powered by .NET 7.0</span></a>
-            <a href="mailto:shiversluke@gmail.com" target="_blank"><span>Submit Maintenance Ticket</span></a>
-            <a href="mailto:shiversluke@gmail.com" target="_blank"><span>Support</span></a>
-        </div>
-    </footer>
+        <footer>
+            <span id="followUsTxt">Follow us</span>
+            <div class="socialMedia">
+                <a href="https://www.linkedin.com/in/luke-shivers/" target="_blank" class="socialItem">
+                    <img src="~/assets/linkedIn.svg" alt="LinkedIn" />
+                </a>
+                <a href="https://github.com/LukeShivers" target="_blank" class="socialItem">
+                    <img src="~/assets/gitHub.svg" alt="GitHub" />
+                </a>
+                <a href="https://www.instagram.com/luke_shivers/" target="_blank" class="socialItem">
+                    <img src="~/assets/instagram.svg" alt="Instagram" />
+                </a>
+                <a href="https://codepen.io/Luke-Shivers" target="_blank" class="socialItem">
+                    <img src="~/assets/codepen.svg" alt="Codepen" />
+                </a>
+            </div>
+            <div class="footerLinks">
+                <a href="https://github.com/LukeShivers/Snake-in-CSharp" target="_blank">Source Code</a>
+                <a href="https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet-core" target="_blank">Powered by .NET 7.0</a>
+                <a href="mailto:shiversluke@gmail.com" target="_blank">Submit Maintenance Ticket</a>
+                <a href="mailto:shiversluke@gmail.com" target="_blank">Support</a>
+            </div>
+        </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
 </html>

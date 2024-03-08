@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PAGXCRr2mJ8gMt24AK1oZ1pOfJoVCy4b2o0CEzd4yL4=",
+  "Hash": "gmaffi6k10/In7S+xvn4wx9BvtZZv1nPvkRGOIfHQZk=",
   "Source": "Snake",
   "BasePath": "_content/Snake",
   "Mode": "Default",
@@ -153,23 +153,6 @@
       "OriginalItemSpec": "wwwroot/assets/empty.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/emptyHeart.svg",
-      "SourceId": "Snake",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
-      "BasePath": "_content/Snake",
-      "RelativePath": "assets/emptyHeart.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/emptyHeart.svg"
-    },
-    {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fail.mp3",
       "SourceId": "Snake",
       "SourceType": "Discovered",
@@ -204,12 +187,12 @@
       "OriginalItemSpec": "wwwroot/assets/food.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fullHeart.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gamePlay.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
       "BasePath": "_content/Snake",
-      "RelativePath": "assets/fullHeart.svg",
+      "RelativePath": "assets/gamePlay.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +201,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/fullHeart.svg"
+      "OriginalItemSpec": "wwwroot/assets/gamePlay.svg"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gitHub.svg",
@@ -272,12 +255,12 @@
       "OriginalItemSpec": "wwwroot/assets/linkedIn.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/logoLight.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/logo.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
       "BasePath": "_content/Snake",
-      "RelativePath": "assets/logoLight.svg",
+      "RelativePath": "assets/logo.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,7 +269,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/logoLight.svg"
+      "OriginalItemSpec": "wwwroot/assets/logo.svg"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/noVolume.svg",
@@ -321,23 +304,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/snake.svg"
-    },
-    {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/snakeLogo.svg",
-      "SourceId": "Snake",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
-      "BasePath": "_content/Snake",
-      "RelativePath": "assets/snakeLogo.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/snakeLogo.svg"
     },
     {
       "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volume.svg",

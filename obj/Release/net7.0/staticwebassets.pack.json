@@ -1,0 +1,333 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/obj/Release/net7.0/scopedcss/projectbundle/Snake.bundle.scp.css",
+      "PackagePath": "staticwebassets/Snake.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/bite.mp3",
+      "PackagePath": "staticwebassets/assets/bite.mp3"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/buttonClick.mp3",
+      "PackagePath": "staticwebassets/assets/buttonClick.mp3"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/codepen.svg",
+      "PackagePath": "staticwebassets/assets/codepen.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/empty.svg",
+      "PackagePath": "staticwebassets/assets/empty.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fail.mp3",
+      "PackagePath": "staticwebassets/assets/fail.mp3"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/food.svg",
+      "PackagePath": "staticwebassets/assets/food.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gamePlay.svg",
+      "PackagePath": "staticwebassets/assets/gamePlay.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gitHub.svg",
+      "PackagePath": "staticwebassets/assets/gitHub.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/instagram.svg",
+      "PackagePath": "staticwebassets/assets/instagram.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/linkedIn.svg",
+      "PackagePath": "staticwebassets/assets/linkedIn.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/logo.svg",
+      "PackagePath": "staticwebassets/assets/logo.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/noVolume.svg",
+      "PackagePath": "staticwebassets/assets/noVolume.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/snake.svg",
+      "PackagePath": "staticwebassets/assets/snake.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volume.svg",
+      "PackagePath": "staticwebassets/assets/volume.svg"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volumeClick.mp3",
+      "PackagePath": "staticwebassets/assets/volumeClick.mp3"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/js/signalr/dist/browser/signalr.js",
+      "PackagePath": "staticwebassets/js/signalr/dist/browser/signalr.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.Snake.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.Snake.props",
+      "PackagePath": "build\\Snake.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.Snake.props",
+      "PackagePath": "buildMultiTargeting\\Snake.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.Snake.props",
+      "PackagePath": "buildTransitive\\Snake.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
