@@ -6,7 +6,7 @@
 This project was built to provide a nostalgic snake gameplay in a modern UI
 enviroment. It was inspired by a version of snake programmed by Taneli Armanto
 in 1997 for Nokia monochrome 6110 phones which utilized a block-like snake
-without rounded corners and edges. Play this game: 
+without rounded corners and edges. Play this game: <a href="www.retrosnake.tech">www.retrosnake.tech</a>
 
 
 <img src="/wwwroot/assets/gamePlay.png" alt="Example game play"/>
