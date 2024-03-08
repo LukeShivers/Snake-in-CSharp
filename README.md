@@ -9,7 +9,7 @@ in 1997 for Nokia monochrome 6110 phones which utilized a block-like snake
 without rounded corners and edges. Play this game: 
 
 
-<img src="/assets/gamePlay.png" alt="Example game play"/>
+<img src="/wwwroot/assets/gamePlay.png" alt="Example game play"/>
 
 
 
