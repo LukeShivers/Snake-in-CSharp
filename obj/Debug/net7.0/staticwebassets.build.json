@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gmaffi6k10/In7S+xvn4wx9BvtZZv1nPvkRGOIfHQZk=",
+  "Hash": "A9GObT/DGweeNdfSEh4HGKVUwyMaaUVxQzk0FSaqfbg=",
   "Source": "Snake",
   "BasePath": "_content/Snake",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Snake/wwwroot",
       "Source": "Snake",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/scopedcss/bundle/Snake.styles.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/obj/Debug/net7.0/scopedcss/bundle/Snake.styles.css",
       "SourceId": "Snake",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/Snake",
       "RelativePath": "Snake.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/scopedcss/bundle/Snake.styles.css"
+      "OriginalItemSpec": "/Users/lukeshivers/Desktop/Programming/Retro Snake/obj/Debug/net7.0/scopedcss/bundle/Snake.styles.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/scopedcss/projectbundle/Snake.bundle.scp.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/obj/Debug/net7.0/scopedcss/projectbundle/Snake.bundle.scp.css",
       "SourceId": "Snake",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/Snake",
       "RelativePath": "Snake.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/lukeshivers/Desktop/Programming/Snake/obj/Debug/net7.0/scopedcss/projectbundle/Snake.bundle.scp.css"
+      "OriginalItemSpec": "/Users/lukeshivers/Desktop/Programming/Retro Snake/obj/Debug/net7.0/scopedcss/projectbundle/Snake.bundle.scp.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/.DS_Store",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/.DS_Store",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/.DS_Store",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/.DS_Store",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/.DS_Store",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/assets/.DS_Store"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/bite.mp3",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/bite.mp3",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/bite.mp3",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/assets/bite.mp3"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/buttonClick.mp3",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/buttonClick.mp3",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/buttonClick.mp3",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/assets/buttonClick.mp3"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/codepen.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/codepen.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/codepen.svg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot/assets/codepen.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/empty.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/empty.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/empty.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/assets/empty.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/fail.mp3",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/fail.mp3",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/fail.mp3",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/assets/fail.mp3"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/food.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/food.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/food.svg",
       "AssetKind": "All",
@@ -187,12 +187,12 @@
       "OriginalItemSpec": "wwwroot/assets/food.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gamePlay.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/gamePlay.png",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
-      "RelativePath": "assets/gamePlay.svg",
+      "RelativePath": "assets/gamePlay.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/gamePlay.svg"
+      "OriginalItemSpec": "wwwroot/assets/gamePlay.png"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/gitHub.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/gitHub.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/gitHub.svg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/assets/gitHub.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/instagram.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/instagram.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/instagram.svg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/assets/instagram.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/linkedIn.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/linkedIn.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/linkedIn.svg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/assets/linkedIn.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/logo.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/logo.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/logo.svg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/assets/logo.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/noVolume.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/noVolume.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/noVolume.svg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/assets/noVolume.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/snake.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/snake.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/snake.svg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/assets/snake.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volume.svg",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/volume.svg",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/volume.svg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot/assets/volume.svg"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/assets/volumeClick.mp3",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/assets/volumeClick.mp3",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "assets/volumeClick.mp3",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/assets/volumeClick.mp3"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/css/site.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/css/site.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/js/signalr/dist/browser/signalr.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/js/signalr/dist/browser/signalr.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "js/signalr/dist/browser/signalr.js",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/js/signalr/dist/browser/signalr.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/js/site.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/js/site.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "Snake",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Snake/wwwroot/",
+      "ContentRoot": "/Users/lukeshivers/Desktop/Programming/Retro Snake/wwwroot/",
       "BasePath": "_content/Snake",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

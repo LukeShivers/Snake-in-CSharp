@@ -29,6 +29,12 @@ nav[b-jslkyl608j] {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    nav[b-jslkyl608j] {
+        display: none;
+    }
+}
+
 main[b-jslkyl608j] {
     flex: 1;
     overflow-y: auto;
@@ -41,7 +47,7 @@ main[b-jslkyl608j] {
 
 @media screen and (min-width: 600px) {
     main[b-jslkyl608j] {
-        height: calc(100vh - 103px);
+        height: calc(100vh - 100px);
     }
 }
 
@@ -54,12 +60,19 @@ footer[b-jslkyl608j] {
     width: 100vw;
 }
 
+.socialContainer[b-jslkyl608j] {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    left: 70px;
+}
+
 #followUsTxt[b-jslkyl608j] {
-    margin-left: 70px;
     font-size: 20px;
     font-weight: 400;
     color: var(--lightTan);
     letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 .socialMedia[b-jslkyl608j] {
@@ -77,6 +90,10 @@ footer[b-jslkyl608j] {
 
 .socialItem:hover[b-jslkyl608j] {
     translate: 0 -5px;
+}
+
+.divider[b-jslkyl608j] {
+    display: none;
 }
 
 .footerLinks[b-jslkyl608j] {
@@ -103,4 +120,49 @@ footer[b-jslkyl608j] {
 
 .footerLinks a:hover[b-jslkyl608j] {
     color: var(--darkGreen);
+}
+
+@media screen and (max-width: 600px) {
+    footer[b-jslkyl608j] {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 155px;
+        width: 100vw;
+    }
+
+    .socialContainer[b-jslkyl608j] {
+        display: flex;
+        width: 100%;
+        padding: 0 25px;
+        left: 0;
+    }
+
+    .socialMedia[b-jslkyl608j] {
+        margin-left: 0;
+    }
+
+    .socialItem:hover[b-jslkyl608j] {
+        translate: 0;
+    }
+
+    .footerLinks[b-jslkyl608j] {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0 25px;
+        right: initial;
+        top: 20px;
+    }
+
+    .footerLinks a[b-jslkyl608j] {
+        font-size: 10px;
+    }
+
+    .footerLinks a:hover[b-jslkyl608j] {
+        color: var(--darkTan);
+    }
 }

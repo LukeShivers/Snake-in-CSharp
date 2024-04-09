@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Snake
 build_property.RootNamespace = Snake
-build_property.ProjectDir = /Users/lukeshivers/Desktop/Programming/Snake/
+build_property.ProjectDir = /Users/lukeshivers/Desktop/Programming/Retro Snake/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/lukeshivers/Desktop/Programming/Snake
+build_property.MSBuildProjectDirectory = /Users/lukeshivers/Desktop/Programming/Retro Snake
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/lukeshivers/Desktop/Programming/Snake/Pages/Error.cshtml]
+[/Users/lukeshivers/Desktop/Programming/Retro Snake/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukeshivers/Desktop/Programming/Snake/Pages/Index.cshtml]
+[/Users/lukeshivers/Desktop/Programming/Retro Snake/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukeshivers/Desktop/Programming/Snake/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/lukeshivers/Desktop/Programming/Retro Snake/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukeshivers/Desktop/Programming/Snake/Pages/_ViewImports.cshtml]
+[/Users/lukeshivers/Desktop/Programming/Retro Snake/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukeshivers/Desktop/Programming/Snake/Pages/_ViewStart.cshtml]
+[/Users/lukeshivers/Desktop/Programming/Retro Snake/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukeshivers/Desktop/Programming/Snake/Pages/Shared/_Layout.cshtml]
+[/Users/lukeshivers/Desktop/Programming/Retro Snake/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jslkyl608j

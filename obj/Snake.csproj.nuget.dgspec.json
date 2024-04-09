@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukeshivers/Desktop/Programming/Snake/Snake.csproj": {}
+    "/Users/lukeshivers/Desktop/Programming/Retro Snake/Snake.csproj": {}
   },
   "projects": {
-    "/Users/lukeshivers/Desktop/Programming/Snake/Snake.csproj": {
+    "/Users/lukeshivers/Desktop/Programming/Retro Snake/Snake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukeshivers/Desktop/Programming/Snake/Snake.csproj",
+        "projectUniqueName": "/Users/lukeshivers/Desktop/Programming/Retro Snake/Snake.csproj",
         "projectName": "Snake",
-        "projectPath": "/Users/lukeshivers/Desktop/Programming/Snake/Snake.csproj",
+        "projectPath": "/Users/lukeshivers/Desktop/Programming/Retro Snake/Snake.csproj",
         "packagesPath": "/Users/lukeshivers/.nuget/packages/",
-        "outputPath": "/Users/lukeshivers/Desktop/Programming/Snake/obj/",
+        "outputPath": "/Users/lukeshivers/Desktop/Programming/Retro Snake/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukeshivers/.nuget/NuGet/NuGet.Config"

@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{4CA601F4-F011-4A93-8C5D-1B153AB49285}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Snake PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+    <Files>
+      <File FileName="README.md" Line="17" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Snake">
-            <Node name="Snake">
-              <Node name="wwwroot" expanded="True">
-                <Node name="assets" expanded="True" />
-              </Node>
+            <Node name="Snake" expanded="True">
               <Node name="README.md" selected="True" />
             </Node>
           </Node>
@@ -21,5 +22,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Snake PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

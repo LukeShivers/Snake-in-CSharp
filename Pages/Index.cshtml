@@ -3,52 +3,61 @@
 @{}
 
 
-<div class="outterFrame">
-    <div class="gridBorder frame">
-        <div class="grid">
-            <!-- Create initial <img> tags, populated with img in site.js -->
-            @for (int r = 0; r < 12; r++)
-            {
-                @for (int c = 0; c < 20; c++)
-                {
-                    <img id="img_@r-@c" src="" />
-                }
-            }
+<div class="mainContainer">
+    <div class="mobileView">
+        <div class="mobileLogo">
+            <img src="/assets/logo.svg" alt="logo"/>
+            <span class="snakeHeader" id="mobileHeader">SNAKE</span>
         </div>
-
-        <div class="overlay">
-            <div id="initLoadContainer" class="container">
-                <h1 class="snakeHeader">SNAKE</h1>
-                <h3 class="subheading">CHOOSE LEVEL</h3>
-                <div class="levels">
-                    <div id="easyBtn" class="btn">
-                        <span>Easy</span>
-                    </div>
-                    <div id="mediumBtn" class="btn">
-                        <span>Medium</span>
-                    </div>
-                    <div id="hardBtn" class="btn">
-                        <span>Hard</span>
-                    </div>
-                </div>
-            </div>
-
-
-            <span id="countdownTxt" class="middleHeading">3</span>
-
-
-            <div id="gameOverContainer" class="container">
-                <h2 class="middleHeading">GAME OVER</h2>
-                <span id="pressKeyTxt" class="subheading">PRESS ANY KEY TO PLAY AGAIN</span>
-                <div id="changeLevelBtn" class="btn">
-                    <span>Change Level</span>
-                </div>
-            </div>
-        </div>
+        <span class="mobileSubheading">For best results, please view this page on a desktop</span>
     </div>
-    <div class="scoreLevel">
-        <span class="score">SCORE: </span>
-        <span class="level">LEVEL: </span>
+    <div class="outterFrame">
+        <div class="gridBorder frame">
+            <div class="grid">
+                <!-- Create initial <img> tags, populated with img in site.js -->
+                @for (int r = 0; r < 12; r++)
+                {
+                    @for (int c = 0; c < 20; c++)
+                    {
+                        <img id="img_@r-@c" src="" />
+                    }
+                }
+            </div>
+
+            <div class="overlay">
+                <div id="initLoadContainer" class="container">
+                    <h1 class="snakeHeader">SNAKE</h1>
+                    <h3 class="subheading">CHOOSE LEVEL</h3>
+                    <div class="levels">
+                        <div id="easyBtn" class="btn">
+                            <span>Easy</span>
+                        </div>
+                        <div id="mediumBtn" class="btn">
+                            <span>Medium</span>
+                        </div>
+                        <div id="hardBtn" class="btn">
+                            <span>Hard</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <span id="countdownTxt" class="middleHeading">3</span>
+
+
+                <div id="gameOverContainer" class="container">
+                    <h2 class="middleHeading">GAME OVER</h2>
+                    <span id="pressKeyTxt" class="subheading">PRESS ANY KEY TO PLAY AGAIN</span>
+                    <div id="changeLevelBtn" class="btn">
+                        <span>Change Level</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scoreLevel">
+            <span class="score">SCORE: </span>
+            <span class="level">LEVEL: </span>
+        </div>
     </div>
 </div>
 

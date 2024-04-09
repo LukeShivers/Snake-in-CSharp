@@ -24,6 +24,44 @@
     font-size: calc(100vw / 144);
 }*/
 
+.mobileView {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .mobileView {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .mobileLogo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 294px;
+    }
+
+    #mobileHeader {
+        position: relative;
+        top: 10px;
+        font-size: 64px;
+    }
+
+    .mobileSubheading {
+        position: relative;
+        width: 100%;
+        padding: 0 25px;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--darkTan);
+        top: 100px;
+    }
+}
+
 
 .outterFrame {
     display: flex;
@@ -167,4 +205,10 @@
     font-weight: 900;
     color: var(--mediumGreen);
     letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    .outterFrame {
+        display: none;
+    }
 }
